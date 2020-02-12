@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rtr_moveit</name>
+  <version>0.1.0</version>
+  <description>The rtr moveit setting packages</description>
+
+  <maintainer email="groadpg@gmail.com">Ryodo Tanaka</maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository">http://gitlab.com/rogiken-tnk-ros/rtr_moveit</url>
+
+  <author email="groadpg@gmail.com">Ryodo Tanaka</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>rtr_models</exec_depend>
+  <exec_depend>rtr_controllers</exec_depend>
+  <exec_depend>double_arm_v7_rtr_moveit_config</exec_depend>
+  
+  <export>
+    <metapackage/>
+  </export>
+
+</package>
