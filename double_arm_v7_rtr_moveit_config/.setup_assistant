@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: double_arm_v7_rtr_description
+    relative_path: urdf/urdf/DoubleArmV7A_RTR.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/DoubleArmV7-RTR.srdf
+  CONFIG:
+    author_name: RyodoTanaka
+    author_email: groadpg@gmail.com
+    generated_timestamp: 1581414114
