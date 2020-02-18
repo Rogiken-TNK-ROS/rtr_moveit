@@ -1,4 +1,4 @@
-<launch>
+!<launch>
   <!-- See moveit_ros/visualization/doc/joystick.rst for documentation -->
 
   <arg name="dev" default="/dev/input/js0" />
