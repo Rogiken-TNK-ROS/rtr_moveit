@@ -13,9 +13,7 @@
   <author email="groadpg@gmail.com">Ryodo Tanaka</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <exec_depend>rtr_models</exec_depend>
-  <exec_depend>rtr_controllers</exec_depend>
-  <exec_depend>double_arm_v7_rtr_moveit_config</exec_depend>
+  <exec_depend>rtr_double_arm_v7_moveit_config</exec_depend>
   
   <export>
     <metapackage/>

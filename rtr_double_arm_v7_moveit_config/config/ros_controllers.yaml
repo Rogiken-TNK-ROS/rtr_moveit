@@ -1,5 +1,5 @@
 controller_list:
-  - name: DoubleArmV7_RTR/tohoku_arm_controller
+  - name: RTRDoubleArmV7/tohoku_arm_controller
     action_ns: follow_joint_trajectory
     default: True
     type: FollowJointTrajectory
@@ -10,7 +10,7 @@ controller_list:
       - ARM
       - TOHKU_PITCH
       - TOHKU_ROLL
-  - name: DoubleArmV7_RTR/mani_arm_controller
+  - name: RTRDoubleArmV7/mani_arm_controller
     action_ns: follow_joint_trajectory
     default: True
     type: FollowJointTrajectory

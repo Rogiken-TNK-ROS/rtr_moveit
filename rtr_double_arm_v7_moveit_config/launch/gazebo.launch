@@ -2,7 +2,7 @@
 <launch>
   <arg name="paused" default="false"/>
   <arg name="gazebo_gui" default="true"/>
-  <arg name="urdf_path" default="$(find double_arm_v7_rtr_description)/urdf/urdf/DoubleArmV7A_RTR.urdf"/>
+  <arg name="urdf_path" default="$(find rtr_double_arm_v7_description)/urdf/urdf/RTRDoubleArmV7A.urdf"/>
 
   <!-- startup simulated world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
@@ -18,6 +18,6 @@
   <node name="spawn_gazebo_model" pkg="gazebo_ros" type="spawn_model" args="-urdf -param robot_description -model robot -x 0 -y 0 -z 0"
     respawn="false" output="screen" />
 
-  <include file="$(find double_arm_v7_rtr_moveit_config)/launch/ros_controllers.launch"/>
+  <include file="$(find rtr_double_arm_v7_moveit_config)/launch/ros_controllers.launch"/>
 
 </launch>

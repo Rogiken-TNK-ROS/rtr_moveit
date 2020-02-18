@@ -1,10 +1,10 @@
 moveit_setup_assistant_config:
   URDF:
-    package: double_arm_v7_rtr_description
-    relative_path: urdf/urdf/DoubleArmV7A_RTR.urdf
+    package: rtr_double_arm_v7_description
+    relative_path: urdf/urdf/RTRDoubleArmV7A.urdf
     xacro_args: ""
   SRDF:
-    relative_path: config/DoubleArmV7-RTR.srdf
+    relative_path: config/RTRDoubleArmV7.srdf
   CONFIG:
     author_name: RyodoTanaka
     author_email: groadpg@gmail.com
