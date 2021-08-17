@@ -22,3 +22,17 @@ controller_list:
       - MANIELBOW
       - YAWJOINT
       - HANDBASE
+  - name: RTRDoubleArmV7/tohoku_gripper_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - TOHKU_TIP_01
+      - TOHKU_TIP_02
+  - name: RTRDoubleArmV7/mani_gripper_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - PUSHROD
+
