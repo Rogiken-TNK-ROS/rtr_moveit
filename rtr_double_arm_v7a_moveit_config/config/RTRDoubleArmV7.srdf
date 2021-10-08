@@ -72,36 +72,19 @@
         <group name="mani_arm"/>
     </group>
     <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
-    <group_state name="grasp" group="both_arms">
-        <joint name="ARM" value="2.6546"/>
-        <joint name="BLOCK" value="0.4"/>
-        <joint name="BOOM" value="-1.17"/>
+    <group_state name="Fgrasp" group="both_arms">
+        <joint name="ARM" value="2.5727"/>
+        <joint name="BLOCK" value="0.4879"/>
+        <joint name="BOOM" value="-1.0509"/>
         <joint name="HANDBASE" value="0"/>
-        <joint name="MANIARM" value="-0.3"/>
-        <joint name="MANIBOOM" value="0.3"/>
+        <joint name="MANIARM" value="-0.6258"/>
+        <joint name="MANIBOOM" value="0.6986"/>
         <joint name="MANIELBOW" value="-0.0147"/>
-        <joint name="MFRAME" value="-0.3"/>
-        <joint name="MNP_SWING" value="-0.4"/>
+        <joint name="MFRAME" value="-0.4641"/>
+        <joint name="MNP_SWING" value="-0.5959"/>
         <joint name="TOHKU_PITCH" value="0"/>
         <joint name="TOHKU_ROLL" value="0"/>
-        <joint name="UFRAME" value="-2.7"/>
-        <joint name="YAWJOINT" value="0"/>
-    </group_state>
-    <group_state name="grasp" group="tohoku_arm">
-        <joint name="ARM" value="2.6546"/>
-        <joint name="BLOCK" value="0.4"/>
-        <joint name="BOOM" value="-1.17"/>
-        <joint name="MFRAME" value="-0.3"/>
-        <joint name="TOHKU_PITCH" value="0"/>
-        <joint name="TOHKU_ROLL" value="0"/>
-    </group_state>
-    <group_state name="grasp" group="mani_arm">
-        <joint name="HANDBASE" value="0"/>
-        <joint name="MANIARM" value="-0.3"/>
-        <joint name="MANIBOOM" value="0.3"/>
-        <joint name="MANIELBOW" value="-0.0147"/>
-        <joint name="MNP_SWING" value="-0.4"/>
-        <joint name="UFRAME" value="-2.7"/>
+        <joint name="UFRAME" value="-2.4529"/>
         <joint name="YAWJOINT" value="0"/>
     </group_state>
     <group_state name="zero" group="both_arms">
@@ -149,6 +132,119 @@
     </group_state>
     <group_state name="Close" group="mani_gripper">
         <joint name="PUSHROD" value="0"/>
+    </group_state>
+    <group_state name="Rgrasp" group="both_arms">
+        <joint name="ARM" value="2.5727"/>
+        <joint name="BLOCK" value="0.7371"/>
+        <joint name="BOOM" value="-1.0509"/>
+        <joint name="HANDBASE" value="0"/>
+        <joint name="MANIARM" value="-0.6258"/>
+        <joint name="MANIBOOM" value="0.6986"/>
+        <joint name="MANIELBOW" value="-0.0147"/>
+        <joint name="MFRAME" value="-2.1877"/>
+        <joint name="MNP_SWING" value="-0.9083"/>
+        <joint name="TOHKU_PITCH" value="0"/>
+        <joint name="TOHKU_ROLL" value="0"/>
+        <joint name="UFRAME" value="-3.7787"/>
+        <joint name="YAWJOINT" value="0"/>
+    </group_state>
+    <group_state name="Fgrasp" group="tohoku_arm">
+        <joint name="ARM" value="2.5727"/>
+        <joint name="BLOCK" value="0.4879"/>
+        <joint name="BOOM" value="-1.0509"/>
+        <joint name="MFRAME" value="-0.4641"/>
+        <joint name="TOHKU_PITCH" value="0"/>
+        <joint name="TOHKU_ROLL" value="0"/>
+    </group_state>
+    <group_state name="Fgrasp" group="mani_arm">
+        <joint name="HANDBASE" value="0"/>
+        <joint name="MANIARM" value="-0.6258"/>
+        <joint name="MANIBOOM" value="0.6986"/>
+        <joint name="MANIELBOW" value="-0.0147"/>
+        <joint name="MNP_SWING" value="-0.5959"/>
+        <joint name="UFRAME" value="-2.4529"/>
+        <joint name="YAWJOINT" value="0"/>
+    </group_state>
+    <group_state name="Rgrasp" group="tohoku_arm">
+        <joint name="ARM" value="2.5727"/>
+        <joint name="BLOCK" value="0.7371"/>
+        <joint name="BOOM" value="-1.0509"/>
+        <joint name="MFRAME" value="-2.1877"/>
+        <joint name="TOHKU_PITCH" value="0"/>
+        <joint name="TOHKU_ROLL" value="0"/>
+    </group_state>
+    <group_state name="Rgrasp" group="mani_arm">
+        <joint name="HANDBASE" value="0"/>
+        <joint name="MANIARM" value="-0.6258"/>
+        <joint name="MANIBOOM" value="0.6986"/>
+        <joint name="MANIELBOW" value="-0.0147"/>
+        <joint name="MNP_SWING" value="-0.9083"/>
+        <joint name="UFRAME" value="-3.7787"/>
+        <joint name="YAWJOINT" value="0"/>
+    </group_state>
+    <group_state name="Lgrasp" group="both_arms">
+        <joint name="ARM" value="2.5727"/>
+        <joint name="BLOCK" value="0.6238"/>
+        <joint name="BOOM" value="-1.0509"/>
+        <joint name="HANDBASE" value="0"/>
+        <joint name="MANIARM" value="-0.6258"/>
+        <joint name="MANIBOOM" value="0.6986"/>
+        <joint name="MANIELBOW" value="-0.0147"/>
+        <joint name="MFRAME" value="0.9944"/>
+        <joint name="MNP_SWING" value="-0.9892"/>
+        <joint name="TOHKU_PITCH" value="0"/>
+        <joint name="TOHKU_ROLL" value="0"/>
+        <joint name="UFRAME" value="-0.5966"/>
+        <joint name="YAWJOINT" value="0"/>
+    </group_state>
+    <group_state name="Lgrasp" group="tohoku_arm">
+        <joint name="ARM" value="2.5727"/>
+        <joint name="BLOCK" value="0.6238"/>
+        <joint name="BOOM" value="-1.0509"/>
+        <joint name="MFRAME" value="0.9944"/>
+        <joint name="TOHKU_PITCH" value="0"/>
+        <joint name="TOHKU_ROLL" value="0"/>
+    </group_state>
+    <group_state name="Lgrasp" group="mani_arm">
+        <joint name="HANDBASE" value="0"/>
+        <joint name="MANIARM" value="-0.6258"/>
+        <joint name="MANIBOOM" value="0.6986"/>
+        <joint name="MANIELBOW" value="-0.0147"/>
+        <joint name="MNP_SWING" value="-0.9892"/>
+        <joint name="UFRAME" value="-0.5966"/>
+        <joint name="YAWJOINT" value="0"/>
+    </group_state>
+    <group_state name="Bgrasp" group="both_arms">
+        <joint name="ARM" value="2.5727"/>
+        <joint name="BLOCK" value="0.7371"/>
+        <joint name="BOOM" value="-1.0509"/>
+        <joint name="HANDBASE" value="0"/>
+        <joint name="MANIARM" value="-0.6258"/>
+        <joint name="MANIBOOM" value="0.6986"/>
+        <joint name="MANIELBOW" value="-0.0147"/>
+        <joint name="MFRAME" value="-3.6461"/>
+        <joint name="MNP_SWING" value="-0.9083"/>
+        <joint name="TOHKU_PITCH" value="0"/>
+        <joint name="TOHKU_ROLL" value="0"/>
+        <joint name="UFRAME" value="-5.3698"/>
+        <joint name="YAWJOINT" value="0"/>
+    </group_state>
+    <group_state name="Bgrasp" group="mani_arm">
+        <joint name="HANDBASE" value="0"/>
+        <joint name="MANIARM" value="-0.6258"/>
+        <joint name="MANIBOOM" value="0.6986"/>
+        <joint name="MANIELBOW" value="-0.0147"/>
+        <joint name="MNP_SWING" value="-0.9083"/>
+        <joint name="UFRAME" value="-5.3698"/>
+        <joint name="YAWJOINT" value="0"/>
+    </group_state>
+    <group_state name="Bgrasp" group="tohoku_arm">
+        <joint name="ARM" value="2.5727"/>
+        <joint name="BLOCK" value="0.7371"/>
+        <joint name="BOOM" value="-1.0509"/>
+        <joint name="MFRAME" value="-3.6461"/>
+        <joint name="TOHKU_PITCH" value="0"/>
+        <joint name="TOHKU_ROLL" value="0"/>
     </group_state>
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="tohoku_gripper_ef" parent_link="TOHKU_ROLL" group="tohoku_gripper" parent_group="tohoku_arm"/>
